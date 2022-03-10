@@ -1,0 +1,19 @@
+{
+  "name": "devalone",
+  "version": "0.0.1",
+  "description": "this is a first package",
+  "main": "file.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-generator": "^4.16.1",
+    "npm": "^8.5.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ori kedar",
+  "license": "ISC"
+}
