@@ -1,7 +1,8 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 .js
 /node_modules
 .iml
 .xml
+.idea
