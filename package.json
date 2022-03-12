@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "nvm": "^0.0.4"
+  },
+  "name": "devalone",
+  "description": "Run the file",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:OriKedar/devAlone.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
