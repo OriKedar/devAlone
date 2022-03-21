@@ -7,3 +7,5 @@
 .xml
 .idea
 .vscode
+out
+package-lock.json

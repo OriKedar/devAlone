@@ -15,8 +15,8 @@
   },
   "scripts": {
     "test": "test",
-    "build": "tsc",
-    "serv": "node --experimental-modules --es-module-specifier-resolution=node out/server.js"
+    "build": "tsc --watch",
+    "serv": "node --experimental-modules --es-module-specifier-resolution=node out/index.js"
   },
   "author": "Ori kedar",
   "license": "ISC"

@@ -1,16 +1,15 @@
-import { Request, Response } from "express";
+import express from "express";
 
-/**
- * 
- * @route GET / 
- * 
- */
-// export const hello = (req: request, res: response) => {
-//     res.send("hello"); 
-// };
+const router = express.Router();
 
-export const hello = (req: Request, res: Response) => {
-    res.render("home", {
-        title: "Home"
+    router.use((req, res, next) => {
+        console.log('Time: ', Date.now())
+        next()
     });
-};
+
+    router.get("/:id", (req, res) => {
+        res.send(req.params.id);
+        console.log(req.params.id);
+    });
+
+export { router };
