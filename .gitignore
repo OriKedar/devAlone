@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+.js
+/node_modules
+.iml
+.xml
+.idea
+.vscode
+out
+package-lock.json
